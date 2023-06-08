@@ -1,0 +1,3 @@
+1.在IDEA中安装Lombok插件
+
+2.在项目中导入lombok的jar包
