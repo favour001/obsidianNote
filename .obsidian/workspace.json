@@ -4,37 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "048491a3ab380032",
+        "id": "158994f741d7a1d8",
         "type": "tabs",
-        "dimension": 58.81979695431472,
         "children": [
           {
-            "id": "5cb5a7e8f4a0773e",
+            "id": "84bf2f6215097ace",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring学习/Spring Mybatis.md",
+                "file": "Go语言学习/Golang入门.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "92e73f7220430dbb",
-        "type": "tabs",
-        "dimension": 41.18020304568528,
-        "children": [
-          {
-            "id": "53a7a23e26f82623",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "mybatis学习/动态sql.md",
-                "mode": "preview",
                 "source": false
               }
             }
@@ -105,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring学习/Spring Mybatis.md",
+                "file": "Go语言学习/Golang入门.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring学习/Spring Mybatis.md",
+                "file": "Go语言学习/Golang入门.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring学习/Spring Mybatis.md"
+                "file": "Go语言学习/Golang入门.md"
               }
             }
           }
@@ -167,10 +147,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "fa3f95260fd3d234",
+  "active": "84bf2f6215097ace",
   "lastOpenFiles": [
-    "后端java学习/jdk-1.8配置.md",
     "Spring学习/Spring Mybatis.md",
+    "Go语言学习/Golang入门.md",
+    "Go语言学习",
+    "后端java学习/jdk-1.8配置.md",
     "Spring学习",
     "后端java学习/Maven配置.md",
     "后端java学习/Interllij idea-Maven and jdk8 的配置.md",
