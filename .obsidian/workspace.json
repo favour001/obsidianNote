@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "158994f741d7a1d8",
+        "id": "9cdf396f3efb8c2e",
         "type": "tabs",
         "children": [
           {
-            "id": "84bf2f6215097ace",
+            "id": "3cd27b6a85c0295b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaWeb学习/Maven.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaWeb学习/Maven.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaWeb学习/Maven.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "JavaWeb学习/Maven.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -147,8 +139,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "84bf2f6215097ace",
+  "active": "3cd27b6a85c0295b",
   "lastOpenFiles": [
+    "JavaWeb学习/Http.md",
+    "Spring学习/Spring Mybatis.md",
     "Pasted image 20230611222255.png",
     "Pasted image 20230611222251.png",
     "Pasted image 20230611215404.png",
@@ -157,15 +151,24 @@
     "Pasted image 20230611214150.png",
     "Pasted image 20230611213111.png",
     "Pasted image 20230611212508.png",
-    "Go语言学习/Golang入门.md",
     "JavaWeb学习/Maven.md",
-    "JavaWeb学习",
-    "Spring学习/Spring Mybatis.md",
-    "Go语言学习",
-    "后端java学习/jdk-1.8配置.md",
-    "Spring学习",
+    "JavaWeb学习/Tomcat.md",
+    "Pasted image 20230610130538.png",
+    "JavaWeb学习/web服务器.md",
     "后端java学习/Maven配置.md",
+    "后端java学习/jdk-1.8配置.md",
     "后端java学习/Interllij idea-Maven and jdk8 的配置.md",
+    "JavaWeb学习/JavaWeb.md",
+    "SpringMVC学习/MVC.md",
+    "JavaWeb学习",
+    "Spring学习/Mybatis-spring.md",
+    "SpringMVC学习",
+    "Go语言学习/Golang入门.md",
+    "Go语言学习",
+    "Spring学习/Spring-Mybatis.md",
+    "Spring学习/声明式事务.md",
+    "mybatis学习/动态sql.md",
+    "Spring学习",
     "mybatis学习/Mybatis第一个程序.md",
     "后端java学习",
     "mybatis学习/日志.md",
@@ -177,9 +180,6 @@
     "mybatis学习/使用注解开发.md",
     "mybatis学习/分页.md",
     "mybatis学习/解决属性名和字段名不一致的问题.md",
-    "mybatis学习/配置解析.md",
-    "mybatis学习/缓存.md",
-    "mybatis学习/动态sql.md",
-    "mybatis学习/面试题.md"
+    "mybatis学习/配置解析.md"
   ]
 }
