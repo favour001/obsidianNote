@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "9cdf396f3efb8c2e",
+        "id": "20b9b8f5da942006",
         "type": "tabs",
         "children": [
           {
-            "id": "3cd27b6a85c0295b",
+            "id": "66deaf29d17d502f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "JavaWeb学习/Servlet.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "JavaWeb学习/Servlet.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "JavaWeb学习/Servlet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "JavaWeb学习/Servlet.md"
+              }
             }
           }
         ],
@@ -139,29 +147,32 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3cd27b6a85c0295b",
+  "active": "fa3f95260fd3d234",
   "lastOpenFiles": [
-    "Pasted image 20230610130538.png",
+    "JavaWeb学习/image/Pasted image 20230613002507.png",
+    "JavaWeb学习/Servlet.md",
+    "JavaWeb学习/web服务器.md",
+    "JavaWeb学习/Pasted image 20230613002438.png",
+    "JavaWeb学习/image",
+    "Pasted image 20230613002342.png",
+    "Pasted image 20230613002206.png",
+    "Pasted image 20230613002120.png",
+    "JavaWeb学习/Maven.md",
     "Spring学习/声明式事务.md",
-    "Spring学习/Spring-Mybatis.md",
     "Spring学习/Mybatis-spring.md",
+    "后端java学习/Maven配置.md",
+    "JavaWeb学习/JavaWeb.md",
+    "Pasted image 20230610130538.png",
+    "Spring学习/Spring-Mybatis.md",
     "SpringMVC学习/MVC.md",
     "SpringMVC学习",
-    "JavaWeb学习/web服务器.md",
     "JavaWeb学习/Tomcat.md",
-    "JavaWeb学习/JavaWeb.md",
     "JavaWeb学习/Http.md",
     "Spring学习/Spring Mybatis.md",
     "Pasted image 20230611222255.png",
     "Pasted image 20230611222251.png",
     "Pasted image 20230611215404.png",
     "Pasted image 20230611215228.png",
-    "Pasted image 20230611214530.png",
-    "Pasted image 20230611214150.png",
-    "Pasted image 20230611213111.png",
-    "Pasted image 20230611212508.png",
-    "JavaWeb学习/Maven.md",
-    "后端java学习/Maven配置.md",
     "后端java学习/jdk-1.8配置.md",
     "后端java学习/Interllij idea-Maven and jdk8 的配置.md",
     "JavaWeb学习",
@@ -178,7 +189,6 @@
     "mybatis学习/多对一.md",
     "mybatis学习/Lombok 了解即可.md",
     "mybatis学习/使用注解开发.md",
-    "mybatis学习/分页.md",
-    "mybatis学习/解决属性名和字段名不一致的问题.md"
+    "mybatis学习/分页.md"
   ]
 }
