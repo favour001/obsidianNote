@@ -74,3 +74,98 @@ son extends father
 7. 启动测试
 8. 成功
 ![[Pasted image 20230613002507.png]]
+
+### Servlet原理
+Servlet是由web服务器调用，web请求
+![[Pasted image 20230613213029.png]]
+
+### Mapping
+
+1. 一个Servlet可以指定一个映射路径
+	```xml
+	<servlet-mapping>  
+		<servlet-name>hello</servlet-name>  
+		<url-pattern>/hello</url-pattern>  
+	</servlet-mapping>
+```
+2. 一个Servlet可以指定多个映射路径
+	```xml
+	<servlet-mapping>  
+		<servlet-name>hello</servlet-name>  
+		<url-pattern>/hello</url-pattern>  
+		</servlet-mapping>  
+		<servlet-mapping>  
+		<servlet-name>hello</servlet-name>  
+		<url-pattern>/hello1</url-pattern>  
+		</servlet-mapping>  
+		<servlet-mapping>  
+		<servlet-name>hello</servlet-name>  
+		<url-pattern>/hello2</url-pattern>  
+		</servlet-mapping>  
+		<servlet-mapping>  
+		<servlet-name>hello</servlet-name>  
+		<url-pattern>/hello3</url-pattern>  
+	</servlet-mapping>
+```
+3. 一个Servlet可以指定通用映射路径
+```xml
+<servlet-mapping>  
+	<servlet-name>hello</servlet-name>  
+	<url-pattern>/hello/*</url-pattern>  
+</servlet-mapping>
+```
+4. 默认请求路径
+```xml
+<servlet-mapping>  
+	<servlet-name>hello</servlet-name>  
+	<url-pattern>/*</url-pattern>  
+</servlet-mapping>
+```
+5. 指定一些后缀或者前缀
+```xml
+<servlet-mapping>  
+	<servlet-name>hello</servlet-name>  
+	<url-pattern>*.xxx</url-pattern>  
+</servlet-mapping>
+```
+6. 优先级问题
+	指定了固有的映射路径，优先级最高，如果找不到就会走默认的处理请求
+	```xml
+<servlet>  
+	<servlet-name>error</servlet-name>  
+	<servlet-class>com.lin.servlet.ErrorServlet</servlet-class>  
+</servlet>  
+<servlet-mapping>  
+	<servlet-name>error</servlet-name>  
+	<url-pattern>/*</url-pattern>  
+</servlet-mapping>
+```
+
+
+```java
+// this.getInitParameter(); 初始化参数  
+// this.getServletConfig(); Servlet配置  
+// this.getServletContext(); Servlet上下文
+```
+
+### ServletContext
+web容器在启动的时候，它会为每个web程序都常见一个对应的ServletContext对象，它代表了当前的web应用
+* 共享数据
+	在Servlet保存的数据，在另一个Servlet中获取数据
+	创建一个存储数据的类
+	```java
+	public class HelloServlet extends HttpServlet {  
+		@Override  
+		protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {  
+		// this.getInitParameter(); 初始化参数  
+		// this.getServletConfig(); Servlet配置  
+		// this.getServletContext(); Servlet上下文  
+			ServletContext servletContext = this.getServletContext();  
+			  
+			String username = "XX";  
+			// 将一个数据保存在ServletContext中，名为username，值为username  
+			servletContext.setAttribute("username",username);  
+		  
+		}  
+}
+```
