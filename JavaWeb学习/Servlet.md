@@ -169,3 +169,90 @@ web容器在启动的时候，它会为每个web程序都常见一个对应的Se
 		}  
 }
 ```
+* 负责去拿
+```java
+public class GetServlet extends HttpServlet {  
+	@Override  
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {  
+		ServletContext context = this.getServletContext();  
+		  
+		String username = (String) context.getAttribute("username");  
+		resp.setContentType("text/html");  
+		resp.setCharacterEncoding("utf-8");  
+		resp.getWriter().print("名字"+username);  
+	}  
+	  
+	@Override  
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {  
+		super.doPost(req, resp);  
+	}  
+}
+```
+
+```xml
+<servlet>  
+<servlet-name>hello</servlet-name>  
+<servlet-class>com.lin.servlet.HelloServlet</servlet-class>  
+<!-- 初始化参数-->  
+<!-- <init-param>-->  
+<!-- <param-name></param-name>-->  
+<!-- <param-value></param-value>-->  
+<!-- </init-param>-->  
+</servlet>  
+<servlet-mapping>  
+<servlet-name>hello</servlet-name>  
+<url-pattern>/hello</url-pattern>  
+</servlet-mapping>  
+<servlet>  
+<servlet-name>get</servlet-name>  
+<servlet-class>com.lin.servlet.GetServlet</servlet-class>  
+</servlet>  
+<servlet-mapping>  
+<servlet-name>get</servlet-name>  
+<url-pattern>/get</url-pattern>  
+</servlet-mapping>
+```
+
+### 请求转发
+
+```java
+public class ServletDemo3 extends HttpServlet {  
+	@Override  
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {  
+		ServletContext servletContext = this.getServletContext();  
+		servletContext.getRequestDispatcher("/gp").forward(req,resp); //调用forward实现请求转发  
+	}  
+	  
+	@Override  
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {  
+		doGet(req, resp);  
+	}  
+}
+```
+
+### 读取资源文件
+properties
+* 在java目录下新建properties
+* 在resources目录下新建properties
+发现：都被打到同一个路径下：classes，我们俗称这个路径为classpath
+```java
+public class ServletDemo04 extends HttpServlet {  
+	@Override  
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {  
+	  
+		// 读取文件流  
+		InputStream is = this.getServletContext().getResourceAsStream("/WEB-INF/classes/db.properties");  
+		Properties properties = new Properties();  
+		properties.load(is);  
+		String username = properties.getProperty("username");  
+		String pwd = properties.getProperty("password");  
+		  
+		resp.getWriter().print(username+":"+pwd);  
+	}  
+	  
+	@Override  
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {  
+		super.doPost(req, resp);  
+	}  
+}
+```

@@ -118,24 +118,24 @@ maven由于它的约定大于配置，我们之后可以能遇到我们写的配
 pom
 ```xml
 <!--在build中配置resources，来防止我们资源导出失败的问题-->
-<build>    
-    <resources>        
-        <resource>            
+<build>
+    <resources>
+        <resource>
             <directory>src/main/resources</directory>
-            <includes>                
-                <include>**/*.properties</include>                
-                <include>**/*.xml</include>            
-            </includes>            
-            <filtering>true</filtering>        
-        </resource>        
-        <resource>            
-            <directory>src/main/java</directory>            
-            <includes>                
-                <include>**/*.properties</include>                
-                <include>**/*.xml</include>            
-            </includes>            
-            <filtering>true</filtering>        
-        </resource>    
+            <includes>
+                <include>**/*.properties</include>
+                <include>**/*.xml</include>
+            </includes>
+            <filtering>true</filtering>
+        </resource>
+        <resource>
+            <directory>src/main/java</directory>
+            <includes>
+                <include>**/*.properties</include>
+                <include>**/*.xml</include>
+            </includes>
+            <filtering>true</filtering>
+        </resource>
     </resources>
 </build>
 ```
