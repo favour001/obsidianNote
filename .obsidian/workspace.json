@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "83c88b047e80286d",
+        "id": "763f2a1a428cc362",
         "type": "tabs",
         "children": [
           {
-            "id": "bc6b823c66badbd4",
+            "id": "fc9de6d199e940ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SpringMVC学习/乱码问题.md",
+                "file": "SpringBoot学习/配置.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#普通类型",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SpringMVC学习/乱码问题.md",
+                "file": "SpringBoot学习/配置.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SpringMVC学习/乱码问题.md",
+                "file": "SpringBoot学习/配置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,19 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SpringMVC学习/乱码问题.md"
+                "file": "SpringBoot学习/配置.md"
+              }
+            }
+          },
+          {
+            "id": "c4445a1d576f5e20",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -147,50 +159,54 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "bc6b823c66badbd4",
+  "active": "fc9de6d199e940ad",
   "lastOpenFiles": [
-    "SpringMVC学习/接收请求参数.md",
-    "SpringMVC学习/乱码问题.md",
-    "mybatis学习/缓存.md",
-    "SpringMVC学习/结果跳转方式.md",
-    "SpringMVC学习/Controller及RestFul风格.md",
-    "SpringMVC学习/创建一个SpringMVC.md",
-    "SpringMVC学习/RestFul风格.md",
-    "SpringMVC学习/MVC.md",
-    "mybatis学习/Mybatis第一个程序.md",
+    "SpringBoot学习/image/Pasted image 20240714150736.png",
+    "SpringBoot学习/image/Pasted image 20240703221102.png",
+    "SpringBoot学习/image/Pasted image 20240703221010.png",
+    "SpringBoot学习/image/Pasted image 20240703221007.png",
+    "SpringBoot学习/image/Pasted image 20240703211742.png",
+    "SpringBoot学习/image/Pasted image 20240703210245.png",
+    "SpringBoot学习/SpringApplication.md",
+    "SpringBoot学习/原理.md",
+    "SpringBoot学习/未命名 3.md",
+    "SpringBoot学习/未命名 2.md",
+    "SpringBoot学习/未命名 1.md",
+    "SpringBoot学习/未命名.md",
+    "mysql安装/mysql安装.md",
+    "mysql安装/image/Pasted image 20240419232843.png",
+    "mysql安装/image/Pasted image 20240419232813.png",
+    "mysql安装/image/Pasted image 20240419232719.png",
+    "mysql安装/image/Pasted image 20240419232636.png",
+    "mysql安装/image/Pasted image 20240419232534.png",
+    "mysql安装/image",
+    "第一个springboot项目/创建项目.md",
+    "mysql安装",
+    "计算机图形学/未命名.md",
+    "WGSL学习/未命名.md",
+    "未命名.canvas",
+    "SpringBoot学习/第一个Springboot项目.md",
+    "第一个springboot项目",
+    "SpringBoot学习/配置.md",
+    "计算机图形学之数学篇/齐次坐标.md",
+    "计算机图形学",
+    "计算机图形学之数学篇",
+    "WGSL学习/WGSL基础学习.md",
+    "WGSL学习/运算符Operators.md",
+    "WGSL学习/流程控制.md",
+    "WGSL学习/内置函数 Builtin functions.md",
+    "WGSL学习/WGSL内置特性.md",
+    "mybatis学习/动态sql.md",
+    "Spring学习/Spring-Mybatis.md",
+    "Spring学习/Spring Mybatis.md",
     "Spring学习/Mybatis-spring.md",
     "Spring学习/声明式事务.md",
-    "Spring学习/Spring Mybatis.md",
-    "Spring学习/Spring-Mybatis.md",
-    "SpringMVC学习/image/Pasted image 20230826164647.png",
+    "JavaWeb学习/登陆功能实现.md",
+    "WGSL学习",
+    "SpringBoot学习/image",
+    "SpringBoot学习",
+    "Go语言学习/Golang入门.md",
     "SpringMVC学习/image",
-    "JavaWeb学习/文件上传.md",
-    "JavaWeb学习/邮箱发送.md",
-    "JavaWeb学习/image/Pasted image 20230821205547.png",
-    "JavaWeb学习/image/Pasted image 20230816213335.png",
-    "JavaWeb学习/web服务器.md",
-    "JavaWeb学习/Tomcat.md",
-    "JavaWeb学习/Session.md",
-    "JavaWeb学习/Servlet.md",
-    "JavaWeb学习/MVC三层架构.md",
-    "JavaWeb学习/Maven.md",
-    "JavaWeb学习/JSP基础语法.md",
-    "JavaWeb学习/JSP.md",
-    "JavaWeb学习/JDBC.md",
-    "JavaWeb学习/JavaWeb.md",
-    "JavaWeb学习/JavaBean.md",
-    "JavaWeb学习/image/Pasted image 20230718220601.png",
-    "JavaWeb学习/image/Pasted image 20230625212305.png",
-    "JavaWeb学习/image/Pasted image 20230624225419.png",
-    "JavaWeb学习/image/Pasted image 20230624224445.png",
-    "JavaWeb学习/image/Pasted image 20230620214416.png",
-    "JavaWeb学习/image/Pasted image 20230620212859.png",
-    "JavaWeb学习/image/Pasted image 20230620212744.png",
-    "JavaWeb学习/image",
-    "SpringMVC学习",
-    "JavaWeb学习",
-    "Go语言学习",
-    "Spring学习",
-    "后端java学习"
+    "JavaWeb学习/image"
   ]
 }
