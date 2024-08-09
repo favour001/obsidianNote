@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SpringBoot学习/配置.md",
+                "file": "工作/账号.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SpringBoot学习/配置.md",
+                "file": "工作/账号.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SpringBoot学习/配置.md",
+                "file": "工作/账号.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SpringBoot学习/配置.md"
+                "file": "工作/账号.md"
               }
             }
           },
@@ -161,6 +161,12 @@
   },
   "active": "fc9de6d199e940ad",
   "lastOpenFiles": [
+    "计划/改掉自己的自私.md",
+    "工作/账号.md",
+    "工作",
+    "计划/2024计划.md",
+    "SpringBoot学习/配置.md",
+    "计划",
     "SpringBoot学习/image/Pasted image 20240714150736.png",
     "SpringBoot学习/image/Pasted image 20240703221102.png",
     "SpringBoot学习/image/Pasted image 20240703221010.png",
@@ -178,7 +184,6 @@
     "mysql安装/image/Pasted image 20240419232813.png",
     "mysql安装/image/Pasted image 20240419232719.png",
     "mysql安装/image/Pasted image 20240419232636.png",
-    "mysql安装/image/Pasted image 20240419232534.png",
     "mysql安装/image",
     "第一个springboot项目/创建项目.md",
     "mysql安装",
@@ -187,7 +192,6 @@
     "未命名.canvas",
     "SpringBoot学习/第一个Springboot项目.md",
     "第一个springboot项目",
-    "SpringBoot学习/配置.md",
     "计算机图形学之数学篇/齐次坐标.md",
     "计算机图形学",
     "计算机图形学之数学篇",
@@ -201,12 +205,8 @@
     "Spring学习/Spring Mybatis.md",
     "Spring学习/Mybatis-spring.md",
     "Spring学习/声明式事务.md",
-    "JavaWeb学习/登陆功能实现.md",
     "WGSL学习",
     "SpringBoot学习/image",
-    "SpringBoot学习",
-    "Go语言学习/Golang入门.md",
-    "SpringMVC学习/image",
-    "JavaWeb学习/image"
+    "SpringBoot学习"
   ]
 }
